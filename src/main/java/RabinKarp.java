@@ -3,9 +3,10 @@ package main.java;
 public class RabinKarp {
     // Rabin-Karp algorithm in Java
 
-  public final static int d = 10;
-  public final static int q = 13;
-
+  public final static int d = 256;
+  //possiblilites of characters on ascii keyboard
+  public final static int q = 101;
+  //prime to get unique hash code
   static boolean search(String theCheat, String thePoem) {
     int m = theCheat.length();
     int n = thePoem.length();

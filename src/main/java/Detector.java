@@ -17,22 +17,24 @@ public class Detector {
 
         Scanner scanner2 = new Scanner (cheat);
         String theCheat = scanner2.nextLine();
+        // RabinKarp cheaterOrNah = new RabinKarp(theCheat);
+        // cheaterOrNah
+        int i = 0;
         while (scanner2.hasNextLine()){
             System.out.println(scanner2.nextLine());
+            if(true){
+                System.out.println("Plagiarism on line: " + i);
+            }
+            i++;
         }
         scanner2.close();
     } catch (FileNotFoundException e){
             System.out.println(e);
         }
-
     if (true){
-        //  while(true){
-        //     int lineNum = 0;
-        //     System.out.println("You cheated buddy!");
-        //     System.out.println("detected on line " + lineNum);
-        //   }
-        
-    }else{
+        System.out.println("Cheater detected!!!!");
+    }
+   else{
         System.out.println("you're in the clear... for now...");
     }
     
