@@ -27,7 +27,7 @@ public class RabinKarp {
     // Find the match
     //if the loop is broken, that means it was a false alarm
     for (i = 0; i <= n - m; i++) {
-     //when p equals t, they have the same hash value. DO another check to make sure it was plagiarism
+     //when p equals t, they have the same hash value. Do another check to make sure it was plagiarism
       if (p == t) {
         j = 0;
         while (j < m) {
