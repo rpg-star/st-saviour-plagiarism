@@ -35,12 +35,5 @@ public class Detector {
     } catch (FileNotFoundException e){
             System.out.println(e);
         }
-//     if (true){
-//         System.out.println("Cheater detected!!!!");
-//     }
-//    else{
-//         System.out.println("you're in the clear... for now...");
-//     }
-    
     } 
 }
